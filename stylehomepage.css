@@ -524,10 +524,10 @@ html, body {
 
 /* Premium CTA */
 .cta-premium {
-    padding: 6rem 0;
-    /* background: var(--gradient); */
-    color: black;
-    text-align: left !important;
+    padding: 3rem 0;
+    background: var(--gradient);
+    color: white;
+    text-align: center;
 }
 
 .cta-content h2 {
@@ -545,7 +545,7 @@ html, body {
 .cta-actions {
     display: flex;
     gap: 1rem;
-    justify-content: left;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
