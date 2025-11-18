@@ -30,7 +30,7 @@
 
             try {
                 // Save to Firestore
-                await db.collection('walksolutioncontacts').add(formData);
+                await db.collection('contacts8pay').add(formData);
                 
                 // Show success toast
                 successToast.show();
